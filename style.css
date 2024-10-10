@@ -54,6 +54,7 @@
 
 .cta-btn {
   padding: 1rem 2rem;
+  padding: 1rem 1rem;
   background-color: #ff6347;
   color: white;
   text-decoration: none;
@@ -378,12 +379,12 @@ footer p {
 
 /* responsives */
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .hero h1 {
     font-size: 2.5rem;
   }
 
   .hero p {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 }
