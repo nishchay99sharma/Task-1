@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
@@ -16,7 +16,9 @@
     <!-- hero header -->
     <header>
       <nav>
-        <ul>
+        <h1 style="color: whitesmoke; margin:0">The Portfolio</h1>
+        <button class="menu-toggle">☰</button>
+        <ul style="margin: 0;" class="nav-links">
           <li><a href="#home">Home</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#skills">Skills</a></li>
@@ -175,6 +177,14 @@
       </div>
     </footer>
 
+    <script>
+      const menuToggle = document.querySelector('.menu-toggle');
+      const navLinks = document.querySelector('nav ul');
+    
+      menuToggle.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+      });
+    </script>
     
   </body>
 </html>
