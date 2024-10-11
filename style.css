@@ -301,6 +301,7 @@ nav ul li a:hover {
 }
 
 .contact-form {
+  padding: 0 10px 0 10px;
   width: 100%;
   max-width: 600px;
   margin: 0 auto;
@@ -327,7 +328,9 @@ nav ul li a:hover {
 }
 
 button[type="submit"] {
-  background-color: #6e45e1;
+  display: block;
+  margin: 0 auto;
+  background-color: #2b4257;
   color: white;
   padding: 10px 20px;
   border: none;
